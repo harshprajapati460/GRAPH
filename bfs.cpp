@@ -9,7 +9,7 @@ void addEdge(vector<int> adj[], int u, int v)
         // Code here
         int vis[V] = {0};
         vis[0] = 1;
-        queue<int>q;
+        queue<int>q;z
         q.push(0);
         vector<int>dfs;
         while(!q.empty()){
